@@ -1,0 +1,80 @@
+header {
+    background-image: url('./../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #926239;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding-top: 45vh;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.container p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: #926239;
+    border: 1px solid #926239;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.content-section {
+    text-align: center;
+    padding: 20px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.section-c {
+    font-size: 0;
+    text-align: left;
+    padding: 0;
+}
+
+.box {
+    box-sizing: border-box;
+    font-size: 17px;
+    display: inline-block;
+    width: calc(100% / 3);
+    padding: 20px;
+    vertical-align: top;
+}
+
+.box-1, .box-3, .section-a, .button:hover {
+    background-color: #926239;
+    color: white;
+}
+
+.box-2  {
+    background-color: #f9f9f9;
+    color: #926239;
+}
+
+.section-b {
+    background-color: #f4f4f4;
+    color: #926239;
+}
