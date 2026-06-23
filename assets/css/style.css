@@ -1,4 +1,10 @@
-header {
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
     background-image: url('./../images/background.jpg');
     background-size: cover;
     background-position: center;
@@ -6,12 +12,14 @@ header {
     color: #926239;
 }
 
-body {
+.hero__title {
+    font-size: 50px;
+    line-height: 1.2;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, p {
+.hero__text {
+    font-size: 20px;
     margin: 0;
 }
 
@@ -20,17 +28,7 @@ h1, p {
     padding-top: 45vh;
 }
 
-h1 {
-    font-size: 50px;
-    line-height: 1.2;
-}
-
-.container p {
-    font-size: 20px;
-    line-height: 1.6;
-}
-
-.button {
+.hero__button {
     display: inline-block;
     text-decoration: none;
     color: #926239;
@@ -38,7 +36,6 @@ h1 {
     padding: 10px 20px;
     border-radius: 10px;
     font-size: 18px;
-    line-height: 1.6;
     margin-top: 20px;
 }
 
@@ -46,16 +43,20 @@ h1 {
     text-align: center;
     padding: 20px;
     font-size: 17px;
-    line-height: 1.6;
 }
 
-.section-c {
+.content-section--light {
+    background-color: #f4f4f4;
+    color: #926239;
+}
+
+.cards {
     font-size: 0;
     text-align: left;
     padding: 0;
 }
 
-.box {
+.card {
     box-sizing: border-box;
     font-size: 17px;
     display: inline-block;
@@ -64,17 +65,16 @@ h1 {
     vertical-align: top;
 }
 
-.box-1, .box-3, .section-a, .button:hover {
+.card--dark, .hero__button:hover, .content-section--dark {
     background-color: #926239;
     color: white;
 }
 
-.box-2  {
+.card--light  {
     background-color: #f9f9f9;
     color: #926239;
 }
 
-.section-b {
-    background-color: #f4f4f4;
-    color: #926239;
+.content-section__text, .card__text {
+    margin: 0;
 }
